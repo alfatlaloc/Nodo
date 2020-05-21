@@ -1,0 +1,66 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dspic30:dsPIC30F3013 U1
+U 1 1 5EC8702A
+P 5700 3400
+F 0 "U1" H 5700 4265 50  0000 C CNN
+F 1 "dsPIC30F3013" H 5700 4174 50  0000 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "" H 5700 4250 50  0001 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EC89035
+P 6550 2600
+F 0 "R?" H 6609 2646 50  0000 L CNN
+F 1 "R_Small" H 6609 2555 50  0000 L CNN
+F 2 "" H 6550 2600 50  0001 C CNN
+F 3 "~" H 6550 2600 50  0001 C CNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5EC89D88
+P 6350 2650
+F 0 "#PWR?" H 6350 2500 50  0001 C CNN
+F 1 "VCC" H 6365 2823 50  0000 C CNN
+F 2 "" H 6350 2650 50  0001 C CNN
+F 3 "" H 6350 2650 50  0001 C CNN
+	1    6350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2800 6350 2800
+Wire Wire Line
+	6350 2800 6350 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5EC8E6C7
+P 6400 2900
+F 0 "#PWR?" H 6400 2650 50  0001 C CNN
+F 1 "GND" V 6405 2772 50  0000 R CNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2900 6400 2900
+$EndSCHEMATC
