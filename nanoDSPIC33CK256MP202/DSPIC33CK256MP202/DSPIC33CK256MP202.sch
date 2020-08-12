@@ -501,44 +501,6 @@ Text Label 6800 4200 0    50   ~ 0
 RB9
 Text Label 6850 4400 0    50   ~ 0
 RB8
-$Comp
-L Device:R R7
-U 1 1 5F3746C9
-P 4900 4400
-F 0 "R7" V 4800 4400 50  0000 C CNN
-F 1 "1K" V 4900 4400 50  0000 C CNN
-F 2 "" V 4830 4400 50  0001 C CNN
-F 3 "~" H 4900 4400 50  0001 C CNN
-	1    4900 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5F3746CF
-P 4900 4200
-F 0 "R6" V 4800 4200 50  0000 C CNN
-F 1 "1K" V 4900 4200 50  0000 C CNN
-F 2 "" V 4830 4200 50  0001 C CNN
-F 3 "~" H 4900 4200 50  0001 C CNN
-	1    4900 4200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5050 4400 5250 4400
-Wire Wire Line
-	5250 4200 5050 4200
-Text Label 5200 4400 2    50   ~ 0
-PGD
-Text Label 5200 4200 2    50   ~ 0
-PGC
-Wire Wire Line
-	4750 4200 4650 4200
-Wire Wire Line
-	4750 4400 4650 4400
-Text Label 4750 4400 2    50   ~ 0
-RB3
-Text Label 4750 4200 2    50   ~ 0
-RB2
 Wire Wire Line
 	3400 3800 5250 3800
 Wire Wire Line
